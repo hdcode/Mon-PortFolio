@@ -868,6 +868,26 @@ main {
 }
 
 
+.resume-bottom-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.resume-bottom-item{
+  background: var(--bg-gradient-jet);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  margin-top: 10px;
+}
+
+.resume-bottom-item .icon{ height: 28px; }
+
+
 
 
 
@@ -1121,25 +1141,6 @@ main {
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
-
-.mapbox {
-  position: relative;
-  height: 250px;
-  width: 100%;
-  border-radius: 16px;
-  margin-bottom: 30px;
-  border: 1px solid var(--jet);
-  overflow: hidden;
-}
-
-.mapbox figure { height: 100%; }
-
-.mapbox iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  filter: grayscale(1) invert(1);
-}
 
 .contact-form { margin-bottom: 10px; }
 
